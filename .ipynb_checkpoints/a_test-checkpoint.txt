@@ -1,5 +1,0 @@
-Hello there
-42
-35
-76
-This, is, the, end
