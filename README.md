@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains a series of Python exercises and notebooks organized into weekly themes. Each week addresses fundamental concepts in Data Structures and Algorithms (DSA), building up from basic structures to advanced problem-solving techniques.
+This repository contains a series of Python exercises and notebooks organized into weekly themes. Each week addresses fundamental concepts in Data Structures and Algorithms (DSA), building up from basic structures to advanced problem-solving techniques. As well as this there are some great programs to try.
 
 ## Project Structure
 
