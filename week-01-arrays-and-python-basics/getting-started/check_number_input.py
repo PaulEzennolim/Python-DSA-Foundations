@@ -7,7 +7,3 @@ if u.isnumeric():
     print(f"Thank you for the number {u}")
 else:
     print("Hey, why didn't you give us a number??")
-
-from human import Human
-
-print(Human)

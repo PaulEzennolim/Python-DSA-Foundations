@@ -2,42 +2,114 @@
 
 ## Project Overview
 
-This repository contains a series of Python exercises and notebooks organized into weekly themes. Each week addresses fundamental concepts in Data Structures and Algorithms (DSA), building up from basic structures to advanced problem-solving techniques. As well as this there are some great programs to try.
+This repository contains a comprehensive collection of Python exercises, scripts, and Jupyter notebooks organized into weekly themes. Each week explores a major Data Structures & Algorithms (DSA) topic, progressing from fundamental programming concepts to advanced problem-solving techniques.  
+In addition to core DSA materials, the project includes mini-programs, data-analysis tools, image-processing scripts, dynamic animations, and machine-learning examples.
 
 ## Project Structure
 
-### week-01 — Arrays & Python Basics
-Introduction to arrays, binary representation, and foundational Python concepts.
+### **week-01-arrays-and-python-basics**
+Foundational Python concepts, binary representation, introductory algorithms, and basic programs.
 
-### week-02 — Hashmaps, Sets & Recursion
-Covers hashmaps, sets, recursion techniques, stacks, and queues.
+Includes:
+- Getting-started scripts (input handling, converters, number checkers)
+- Intro notebooks (binary, static arrays, general Python review)
+- Simple standalone programs
 
-### week-03 — Linked Lists
-Implementation and operations of singly and doubly linked lists.
+---
 
-### week-04 — Binary Search & Trees
-Exploration of binary search patterns, binary trees, and tree traversals.
+### **week-02-hashmaps-sets-recursion**
+Covers hashmaps, sets, recursion, stacks, queues, and practical conditional-logic programs.
 
-### week-05 — Graphs & Heaps
-Graph representations, BFS/DFS algorithms, heaps, and priority queues.
+Includes:
+- Conditional and function-based programs
+- Hashmap/set notebooks
+- Recursion and stack/queue notebooks
+- SimpleCashPoint project with tests
 
-### week-06 — Problem-Solving Patterns
-Core patterns for problem solving including two pointers, sliding window, and recursive backtracking.
+---
 
-### week-07 — Dynamic Programming
-Dynamic programming fundamentals: tabulation, memoization, and classical DP problem.
+### **week-03-linked-lists-and-programs**
+Implementation and operations of singly and doubly linked lists, plus programs using iterative loops.
+
+Includes:
+- Loop-based programs (factorial, guessing game, Newton's method)
+- Linked list data-structure notebooks
+
+---
+
+### **week-04-Binary-Search-trees-and-time-series-analysis**
+Binary search patterns, tree structures, and introductory data-analysis scripts.
+
+Includes:
+- Tree notebooks and binary search tutorials
+- Time-series analysis folder:
+  - Signal generation and plotting
+  - Moving-average filtering
+  - Noise datasets and processing tools
+
+---
+
+### **week-05-graphs-heaps-and-further-data-analysis**
+Graph algorithms and heap structures with additional data-analysis utilities.
+
+Includes:
+- BFS/DFS graph exploration notebooks
+- Heap operations
+- Sorting algorithms
+- Further data analysis folder:
+  - Pulse-data exploration
+  - Binary pulse conversion
+  - Graph plotting scripts
+
+---
+
+### **week-06-problem-solving-patterns-and-practical-applications**
+Core algorithmic patterns and applied programming exercises.
+
+Includes:
+- Two-pointers techniques
+- Sliding-window patterns
+- Recursive backtracking
+- Image-processing folder:
+  - Pixel-based transformations
+  - Image effects (with PNG sample images)
+- Lexical analysis folder:
+  - Word counting programs
+  - Stopword filtering
+  - Large text samples (Moby Dick, George texts)
+
+---
+
+### **week-07-dynamic-programming-animation-and-machine-learning**
+Dynamic-programming fundamentals and advanced applied programs.
+
+Includes:
+- Dynamic programming notebook
+- Shape animation project:
+  - Shape loading, movement simulation, multi-shape interaction
+  - Test suites for the animation engine
+- Random-forest algorithms:
+  - Classification and regression notebooks
+  - Titanic dataset experiments
+
+---
 
 ## Requirements
 
-Ensure Python is installed on your system:
+Ensure Python is installed:
 
 ```bash
 python --version
 ```
 
-## How to Run
+Recommended:
+- Jupyter Notebook
+- Spyder/VS Code
+- NumPy, Matplotlib, Pillow
+- scikit-learn
 
-Navigate to the desired directory and run the Jupyter notebook or Python file:
+## How to run
+Navigate to the desired directory and run any notebook or script:
 
 ```bash
 jupyter notebook <file_name>.ipynb
@@ -52,13 +124,12 @@ python <file_name>.py
 Example:
 
 ```bash
-python week-01/test.py
+python week-03/using-loops/factorial.py
 ```
 
 ## Contributing
-
-Contributions, improvements, or suggestions are welcomed. Fork the repository, make your changes, and submit a pull request.
+Contributions, improvements, or suggestions are welcomed.
+Fork the repository, make changes, and submit a pull request.
 
 ## License
-
-This project is licensed under the MIT License – see the LICENSE.md file for details.
+This project is licensed under the MIT License – see the LICENSE file for details.
